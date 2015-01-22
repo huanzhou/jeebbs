@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpHeaders;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -201,6 +202,16 @@ public class CosMultipartHttpServletRequest extends
 						+ dest.getAbsolutePath() + "]");
 			}
 		}
+	}
+
+	public HttpHeaders getMultipartHeaders(String arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getMultipartContentType(String arg0) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

@@ -27,12 +27,12 @@ public class BbsTopic extends BaseBbsTopic {
 	/**
 	 * 普通帖
 	 */
-	public static final short TOPIC_NORMAL = 100;
+	public static final int TOPIC_NORMAL = 100;
 	
 	/**
 	 * 投票帖
 	 */
-	public static final short TOPIC_VOTE = 101;
+	public static final int TOPIC_VOTE = 101;
 	
 	/**
 	 * 前台状态
